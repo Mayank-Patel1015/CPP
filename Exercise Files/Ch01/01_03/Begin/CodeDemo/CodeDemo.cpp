@@ -1,6 +1,6 @@
 // Learning C++
 // Exercise 01_03
-// Hello World, by Mayank Patel
+// Hello World, by Eduardo Corpeño and Mayank Patel
 
 #include <iostream>
 

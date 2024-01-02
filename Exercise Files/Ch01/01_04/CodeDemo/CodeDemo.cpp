@@ -1,6 +1,6 @@
 // Learning C++
 // Challenge 01_04
-// Console Interaction, by Mayank Patel
+// Console Interaction, by Eduardo Corpeño and Mayank Patel
 
 #include <iostream>
 #include <string>

@@ -1,13 +1,14 @@
-// Learning C++ 
+// Learning C++
 // Challenge Solution 01_05
-// Console Interaction, by Eduardo Corpeño 
+// Console Interaction, by Eduardo Corpeño and Mayank Patel
 
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-int main(){
+int main()
+{
 	string str;
 	cout << "Enter your name: ";
 	cin >> str;
