@@ -1,6 +1,6 @@
 // Learning C++
 // Exercise 02_05
-// Preprocessor directives, by Eduardo Corpeño
+// Preprocessor directives, by Eduardo Corpeño and Mayank Patel
 
 #include <iostream>
 #include <string>
