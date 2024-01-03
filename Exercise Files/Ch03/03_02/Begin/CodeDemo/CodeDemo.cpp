@@ -1,21 +1,29 @@
-// Learning C++ 
+// Learning C++
 // Exercise 03_02
-// Classes, by Eduardo Corpeño 
+// Classes, by Eduardo Corpeño
 
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-enum cow_purpose {dairy, meat, hide, pet};
+enum cow_purpose
+{
+    dairy,
+    meat,
+    hide,
+    pet
+};
 
-struct cow{
+class cow
+{
     string name;
     int age;
     unsigned char purpose;
 };
 
-int main(){
+int main()
+{
     cow my_cow;
     my_cow.age = 5;
     my_cow.name = "Betsy";
