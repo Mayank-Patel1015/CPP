@@ -36,6 +36,7 @@ int main()
 	cout << "Enter a student ID: ";
 	cin >> id;
 
+	cout << grades[0].get_grade();
 	cout << (int)grades[0].get_grade();
 	// Calculate the GPA for the selected student.
 	// Write your code here
