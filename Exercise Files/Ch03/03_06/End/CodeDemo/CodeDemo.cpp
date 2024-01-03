@@ -1,6 +1,6 @@
-// Learning C++ 
+// Learning C++
 // Exercise 03_05
-// Vectors, by Eduardo Corpeño 
+// Vectors, by Eduardo Corpeño
 
 #include <vector>
 #include <iostream>
@@ -11,7 +11,8 @@ using namespace std;
 
 vector<int> primes;
 
-int main(){
+int main()
+{
     primes.push_back(2);
     primes.push_back(3);
     primes.push_back(5);
@@ -35,16 +36,3 @@ int main(){
     cout << "The last cow is " << (cattle.end() - 1)->get_name() << endl;
     return (0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

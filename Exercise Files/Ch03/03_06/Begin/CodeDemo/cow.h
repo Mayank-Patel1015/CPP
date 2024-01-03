@@ -1,5 +1,3 @@
-#pragma once // unneccasry when include guard is used.
-
 #ifndef COW_H
 #define COW_H
 #include <string>
