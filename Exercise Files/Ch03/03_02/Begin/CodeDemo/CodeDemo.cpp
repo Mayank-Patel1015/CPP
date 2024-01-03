@@ -1,6 +1,6 @@
 // Learning C++
 // Exercise 03_02
-// Classes, by Eduardo Corpeño
+// Classes, by Eduardo Corpeño and Mayank Patel
 
 #include <iostream>
 #include <string>
