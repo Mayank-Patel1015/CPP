@@ -1,6 +1,6 @@
 // Learning C++
 // Exercise 03_04
-// Pointers, by Eduardo Corpeño
+// Pointers, by Eduardo Corpeño and Mayank Patel
 
 #include <iostream>
 #include <string>

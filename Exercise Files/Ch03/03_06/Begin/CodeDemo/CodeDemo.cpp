@@ -1,6 +1,6 @@
-// Learning C++ 
+// Learning C++
 // Exercise 03_05
-// Vectors, by Eduardo Corpeño 
+// Vectors, by Eduardo Corpeño and Mayank Patel
 
 #include <iostream>
 #include <string>
@@ -8,6 +8,7 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
     return (0);
 }
