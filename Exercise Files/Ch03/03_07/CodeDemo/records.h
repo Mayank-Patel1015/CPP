@@ -2,7 +2,8 @@
 
 #include <string>
 
-class Student{
+class Student
+{
 private:
 	int id;
 	std::string name;
@@ -13,7 +14,8 @@ public:
 	std::string get_name();
 };
 
-class Course{
+class Course
+{
 private:
 	int id;
 	std::string name;
@@ -26,7 +28,8 @@ public:
 	int get_credits();
 };
 
-class Grade{
+class Grade
+{
 private:
 	int student_id;
 	int course_id;

@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/mayankpatel/Desktop/CPP/Exercise Files/Ch03/03_07/CodeDemo",
+      "program": "/Users/mayankpatel/Desktop/CPP/Exercise Files/Ch03/03_07/CodeDemo/build/Release/outRelease"
+    }
+  ]
+}
