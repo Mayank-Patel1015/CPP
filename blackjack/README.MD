@@ -4,7 +4,7 @@
 ## 
 
 # MVP:
-## Play the game with no cash and no extra rules (just beat the dealer)
+## Play the game with no cash and no extra rules (just beat the dealer) 1 player
 
 # Goal:
 ## Full Blackjack game with betting upto 7 players (Casino max) per hand
@@ -44,5 +44,12 @@
 # Structure (end):
 ## TODO
 
-# Complications / issues along the way:
-## TODO
+# Complications / issues along the way / implementation:
+
+## Found it hard to code with all the header and cpp files so created all the classes in main class.
+  ## TODO seperate the classes into seperate header/cpp files after getting it working.
+## Had difficulty with only displaying one card from the dealer.
+## Fix: Created a flag to signify player was not done playing (showAll/displayHand). If flag 
+## Could not figure out how to properly shuffle the deck so resorted to stack overflow
+## When calculating the score with an Ace, was getting a bug where the game would think a player busted after a hit on a hand containing an Ace
+## Fixed this by having the default score add 1 for an ace and adding 10 till we were out of aces or score + 10 > 21
