@@ -2,7 +2,7 @@
 #include <random>
 #include <algorithm>
 
-// Create New Deck
+// Create New Deck then shuffle it
 Deck::Deck()
 {
   for (int s = Card::CLUBS; s <= Card::SPADES; ++s)
