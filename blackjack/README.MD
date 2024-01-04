@@ -1,24 +1,24 @@
 # Create a Blackjack (21) game to show proficency in C++ concepts
 
-# How to play:
+## How to play:
 ### Clone repo
 ### navigate to blackjack file in terminal
 ### run command in terminal: g++ -std=c++11 Blackjack.cpp Card.cpp Deck.cpp Game.cpp Player.cpp 
 
-# MVP:
+## MVP:
 ### Play the game with no cash and no extra rules (just beat the dealer) 1 player
 
-# Goal:
+## Goal:
 ### Full Blackjack game with betting upto 7 players (Casino max) per hand
 ### Assumption (below)
 
-# Assumptions (may be implemented in stretch goals):
+## Assumptions (may be implemented in stretch goals):
 ### No splitting
 ### No insurance
 ### No extra payouts based on blackjack
 ### Dealer will never hit on 17 including a soft 17 (Ace + 6)
 
-# Classes (begining concept):
+## Classes (begining concept):
 ### Player
 ### Dealer / House
 ### Hand (May )
@@ -26,14 +26,14 @@
 ### Card
 ### Game
 
-# Classes (end):
+## Classes (end):
 ### main
 ### Game (acts as dealer)
 ### Deck
 ### Card
 ### Player (creates dealer and palyer hand since functionality is same)
 
-# Structure (begining):
+## Structure (begining):
 ### Main calls Game with num players playing
 ### Game creates a new Deck
 ### Deck calls the card class 52 times to create all 52 card combinations then shuffles them
@@ -46,7 +46,7 @@
 ### If bust payout all players who didnt bust
 ### If dealer didnt bust payout those that have higher score (& not busted) and take from those who have lower score. 
 
-# Structure (end):
+## Structure (end):
 ### Main calls Game
 ### Game initializes deck, player, dealer (another player class object)
 ### Deck shuffles after creation
@@ -56,7 +56,7 @@
 ### Game deals cards to dealer till score is 17+
 ### Game determines winner
 
-# Complications / issues along the way / implementation:
+## Complications / issues along the way / implementation:
 
 ### Found it hard to code with all the header and cpp files so created all the classes in main class.
 ### DONE: seperate the classes into seperate header/cpp files after getting it working.
