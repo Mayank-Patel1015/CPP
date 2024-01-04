@@ -58,6 +58,6 @@ void Card::displayCard(bool showAll)
   }
   else
   {
-    std::cout << "Card face down";
+    std::cout << "Card face down"; // handle dealers faced down card
   }
 }

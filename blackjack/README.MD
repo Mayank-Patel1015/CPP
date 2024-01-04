@@ -1,7 +1,9 @@
 # Create a Blackjack (21) game to show proficency in C++ concepts
 
 # How to play:
-## 
+## Clone repo
+## navigate to blackjack file in terminal
+## run command in terminal: g++ -std=c++11 Blackjack.cpp Card.cpp Deck.cpp Game.cpp Player.cpp 
 
 # MVP:
 ## Play the game with no cash and no extra rules (just beat the dealer) 1 player
@@ -14,7 +16,7 @@
 ## No splitting
 ## No insurance
 ## No extra payouts based on blackjack
-## Dealer will never hit on 16 including a soft 16 (Ace + 5)
+## Dealer will never hit on 17 including a soft 17 (Ace + 6)
 ## No 
 
 # Classes (begining concept):
@@ -26,7 +28,11 @@
 ## Game
 
 # Classes (end):
-## TODO
+## main
+## Game (acts as dealer)
+## Deck
+## Card
+## Player (creates dealer and palyer hand since functionality is same)
 
 # Structure (begining):
 ## Main calls Game with num players playing
@@ -47,9 +53,10 @@
 # Complications / issues along the way / implementation:
 
 ## Found it hard to code with all the header and cpp files so created all the classes in main class.
-  ## TODO seperate the classes into seperate header/cpp files after getting it working.
+## DONE: seperate the classes into seperate header/cpp files after getting it working.
 ## Had difficulty with only displaying one card from the dealer.
-## Fix: Created a flag to signify player was not done playing (showAll/displayHand). If flag 
+## Fix: Created a flag to signify player was not done playing (showAll/displayHand).
 ## Could not figure out how to properly shuffle the deck so resorted to stack overflow
-## When calculating the score with an Ace, was getting a bug where the game would think a player busted after a hit on a hand containing an Ace
+## When calculating the score with an Ace, was getting a bug where the game would think a player busted after a hit on a hand containing an Ace but a lower score that didn't bust was possible.
 ## Fixed this by having the default score add 1 for an ace and adding 10 till we were out of aces or score + 10 > 21
+## Added: skip player turn if 21

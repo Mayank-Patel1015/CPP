@@ -1,5 +1,8 @@
 #include "Deck.h"
+#include <random>
+#include <algorithm>
 
+// Create New Deck
 Deck::Deck()
 {
   for (int s = Card::CLUBS; s <= Card::SPADES; ++s)
@@ -24,8 +27,10 @@ bool Deck::isEmpty()
   return cards.empty();
 }
 
+// StackOverflow shuffle solution since the previous implementation was always shuffling the cards in the same way.
 void Deck::shuffleDeck()
 {
-  srand(static_cast<unsigned int>(time(0)));
-  std::random_shuffle(cards.begin(), cards.end());
+  std::random_device rd;
+  std::mt19937 gen(rd());
+  std::shuffle(cards.begin(), cards.end(), gen);
 }

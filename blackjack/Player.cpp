@@ -56,6 +56,11 @@ bool Player::isBusted()
 
 bool Player::wantsToHit()
 {
+  if (getScore() == 21)
+  {
+    std::cout << "21 achieved, skipping turn" << std::endl;
+    return false;
+  }
   char choice;
   std::cout << "Do you want to hit? (y/n): ";
   std::cin >> choice;
